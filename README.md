@@ -115,6 +115,23 @@ Key stages include:
    * Ridership is highest during the summer months (May to September), indicating a strong seasonal component to bike share usage.
    * Weekdays show clear peaks during commuting hours, confirming the commuting pattern. Weekends show a more spread-out usage pattern, with peaks around midday, suggesting recreational use.
 
+###   Preliminary Station Analysis
+
+   The following image shows a preliminary analysis of station usage patterns on weekdays and weekends:
+
+  ![Data Model](documentation/powerBI_priliminary_analysis.png)
+
+   This analysis includes:
+
+   * **Top 10 Start Stations - Non-Weekend Days:** A table listing the top 10 start stations on non-weekend days, ranked by average trips per day, along with average trip duration. A map visualizes the location of these stations.
+   * **Top 10 Start Stations - Weekend Days:** A table listing the top 10 start stations on weekend days, ranked by average trips per day, along with average trip duration. A map visualizes the location of these stations.
+
+   **Key Insights from the Station Analysis:**
+
+   * **Weekday Concentration:** On weekdays, the top start stations are concentrated in the Toronto downtown core. This suggests that bike sharing is heavily used for commuting to work during the week.
+   * **Weekend Concentration:** On weekends, the top start stations show a shift towards the Toronto lakeshore area. This indicates that bike sharing is more frequently used for leisure and recreational activities during the weekend.
+
+
 ## Next Steps
 
 * Visualization of the data using Power BI.
