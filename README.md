@@ -27,6 +27,17 @@ This project analyzes Toronto Bike Share data to gain insights into ridership pa
 
 ## Data Transformation (BigQuery)
 
+The data transformation process in BigQuery is visualized in the flowchart below. It outlines the flow of data from the raw data sources (Open Data Toronto and the Station Data API) through the various tables and transformations, culminating in the final tables used for analysis.
+
+
+Key stages include:
+* Ingestion of raw data from Open Data Toronto and the Station Data API.
+* Creation of initial tables (`bike_trips`, `station_geo_data`).
+* Staging and transformation steps (`staging_trips`, `unique_stations`, `station_info`).
+* Geocoding of station data.
+* Creation of final cleaned tables (`fact_trips_cleaned`, `dim_station_info_cleaned`).
+
+
 1.  **Staging Table Creation (`staging_trips`):**
     * A staging table was created to hold transformed data.
     * Transformations included:
