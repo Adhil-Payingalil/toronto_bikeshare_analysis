@@ -79,6 +79,28 @@ Key stages include:
 * **Fact Table:** `fact_trips`
 * **Dimension Table:** `dim_station_info`
 
+## Analysis and Visualization
+
+   The analysis of the Toronto Bike Share data was visualized using Power BI. Key insights are presented in interactive dashboards.
+
+   ###   Power BI Data Model
+
+   The Power BI data model, illustrates the relationships between the tables used for visualization.
+   ![Data Model](documentation/powerBI_datamodel.png)
+
+   The model consists of the following tables:
+
+   * **fact_trips:** This is the fact table containing the cleaned trip data, including trip duration, start and end times, station IDs, and user type.
+   * **dim_station_info:** This dimension table contains information about the bike stations, such as station ID, name, latitude, longitude, and capacity.
+   * **Calendar:** This table provides date-related attributes for filtering and analyzing data by time periods.
+   * **time_of_day:** This table provides time-related attributes for filtering and analyzing data by time of day
+
+   Relationships between tables are defined as follows:
+
+   * `fact_trips` has a many-to-one relationship with `dim_station_info` using the `start_station_id` and `end_station_id` columns.
+   * `fact_trips` has a many-to-one relationship with `Calendar` using the `start_date` and `end_date` columns.
+   * `fact_trips` has a many-to-one relationship with `time_of_day` using `start_hour`.
+
 ## Next Steps
 
 * Visualization of the data using Power BI.
