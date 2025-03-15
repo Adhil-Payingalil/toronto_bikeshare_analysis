@@ -86,6 +86,7 @@ Key stages include:
    ###   Power BI Data Model
 
    The Power BI data model, illustrates the relationships between the tables used for visualization.
+   
    ![Data Model](documentation/powerBI_datamodel.png)
 
    The model consists of the following tables:
@@ -100,6 +101,19 @@ Key stages include:
    * `fact_trips` has a many-to-one relationship with `dim_station_info` using the `start_station_id` and `end_station_id` columns.
    * `fact_trips` has a many-to-one relationship with `Calendar` using the `start_date` and `end_date` columns.
    * `fact_trips` has a many-to-one relationship with `time_of_day` using `start_hour`.
+
+   ###   Preliminary Analysis
+
+   The following image shows a combined view of several preliminary analyses of the Toronto Bike Share data:
+
+   ![Data Model](documentation/powerBI_priliminary_analysis.png)
+
+   **Key Insights:**
+
+   * The total number of trips has generally increased from 2021 to 2023, with a dip in 2024 (likely due to incomplete data for the year). Annual members consistently make up a larger proportion of total trips compared to casual members. There was a significant surge in trips in 2023.
+   * Peak usage occurs during typical commuting hours (morning and evening), suggesting that bike sharing is used for commuting. Annual members show a more pronounced peak during these hours compared to casual members.
+   * Ridership is highest during the summer months (May to September), indicating a strong seasonal component to bike share usage.
+   * Weekdays show clear peaks during commuting hours, confirming the commuting pattern. Weekends show a more spread-out usage pattern, with peaks around midday, suggesting recreational use.
 
 ## Next Steps
 
