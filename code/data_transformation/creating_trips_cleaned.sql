@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW `toronto-bikeshare-analysis.staging.trips_cleaned` AS
+CREATE OR REPLACE VIEW `toronto-bikeshare-analysis.staging.fact_trips` AS
 SELECT
     Trip_Id,
     Trip_Duration,
