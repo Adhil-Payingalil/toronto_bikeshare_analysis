@@ -2,12 +2,13 @@
 
 ## Overview
 
-This project analyzes Toronto Bike Share data to gain insights into ridership patterns, station usage, and popular routes. The analysis utilizes Google Cloud Platform (GCP) services for data storage, transformation, and analysis.
+This project analyzes Toronto Bike Share data to gain insights into ridership patterns, station usage, and popular routes. The project utilizes Google Cloud Platform (GCP) services, including Google Cloud Storage (GCS) for data storage, BigQuery for data transformation and analysis, and Power BI for data visualization and reporting.
 
 ## Tools Used
 
 * **Google Cloud Storage (GCS):** For raw data storage.
 * **BigQuery:** For data warehousing, transformation, and analysis.
+* **PowerBI** For Visualization and reporting.
 
 ## Data Source
 
