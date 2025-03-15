@@ -1,5 +1,5 @@
 CREATE OR REPLACE TABLE
-  `toronto-bikeshare-analysis.staging.station_info_cleaned` AS
+  `toronto-bikeshare-analysis.staging.dim_station_info` AS
 WITH
   ModeCapacity AS (
     SELECT
