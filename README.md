@@ -29,6 +29,7 @@ This project analyzes Toronto Bike Share data to gain insights into ridership pa
 
 The data transformation process in BigQuery is visualized in the flowchart below. It outlines the flow of data from the raw data sources (Open Data Toronto and the Station Data API) through the various tables and transformations, culminating in the final tables used for analysis.
 
+![Data Transformation Flowchart](documentation/flowchart.png)
 
 Key stages include:
 * Ingestion of raw data from Open Data Toronto and the Station Data API.
