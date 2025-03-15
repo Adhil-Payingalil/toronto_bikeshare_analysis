@@ -135,6 +135,8 @@ Key stages include:
 
 ## Next Steps
 
-* Visualization of the data using Power BI.
+* Optimize BigQuery transformations to improve performance.
+* Integrate temperature data and perform advanced analysis to uncover correlations.
+* Develop interactive Power BI dashboards with advanced visualizations.
 * Further analysis of ridership trends and patterns.
 * Development of predictive models.
