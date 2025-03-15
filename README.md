@@ -106,7 +106,7 @@ Key stages include:
 
    The following image shows a combined view of several preliminary analyses of the Toronto Bike Share data:
 
-   ![Data Model](documentation/powerBI_priliminary_station_analysis.png)
+   ![Data Model](documentation/powerBI_priliminary_analysis.png)
 
    **Key Insights:**
 
@@ -119,7 +119,7 @@ Key stages include:
 
    The following image shows a preliminary analysis of station usage patterns on weekdays and weekends:
 
-  ![Data Model](documentation/powerBI_priliminary_analysis.png)
+   ![Data Model](documentation/powerBI_priliminary_station_analysis.png)
 
    This analysis includes:
 
