@@ -7,7 +7,7 @@ def load_station_information_to_bigquery(project_id, dataset_id, table_id):
 
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+        response.raise_for_status() 
         data = response.json()
 
         stations = data["data"]["stations"]
